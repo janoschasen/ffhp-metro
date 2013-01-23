@@ -60,7 +60,7 @@
 					foreach($tweet['entities']['hashtags'] as $key => $hashtag){
 						$the_tweet = preg_replace(
 							'/#'.$hashtag['text'].'/i',
-							'<a href="https://twitter.com/search?q=%23'.$hashtag['text'].'&src=hash" target="_blank" title="#'.$hashtag['text'].'">#'.$hashtag['text'].'</a>',
+							'<a href="https://twitter.com/search?q=%23'.$hashtag['text'].'" target="_blank" title="#'.$hashtag['text'].'">#'.$hashtag['text'].'</a>',
 							$the_tweet);
 					}
 				}
