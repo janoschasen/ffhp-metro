@@ -46,9 +46,9 @@ jQuery("#rss-slider").before('<div id="rss-pager" class="pager">').cycle({
 
 jQuery("#kunden-slider").before('<div id="kunden-pager" class="pager">').cycle({
 	fx: 'fade',
-	pause: 1,
+	pause: 19,
 	pauseOnPagerHover: 1,
-	timeout: 5000,
+	timeout: 15000,
 	prev: '#kunden-prev',
 	next: '#kunden-next',
 	pager: '#kunden-pager'
